@@ -21,9 +21,7 @@ function App() {
         <Route exact path="/about">
           <AboutUs />
         </Route>
-        <Route exact path="/resources">
-          <Resources />
-        </Route>
+
         <Route exact path="/members">
           <Members />
         </Route>
@@ -33,8 +31,8 @@ function App() {
         <Route exact path="/ptamacs">
           <PtaMacs />
         </Route>
-        <Route exact path="/upcoming-ccus">
-          <UpcomingCCUs />
+        <Route exact path="/resources">
+          <Resources />
         </Route>
         <Route exact path="/upcoming-ccus">
           <UpcomingCCUs />
