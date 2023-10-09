@@ -1,5 +1,4 @@
 import React, { useRef } from "react";
-// import logo from "../../assets/images/texas.png";
 import logo from "../../assets/images/texaslogo.png";
 
 import { NavLink } from "react-router-dom";
@@ -7,7 +6,7 @@ import { NavLink } from "react-router-dom";
 const nav__links = [
   {
     path: "/home",
-    display: "Home",
+    display: <span className="text-[blue]">Home</span>,
   },
   {
     path: "/about",
