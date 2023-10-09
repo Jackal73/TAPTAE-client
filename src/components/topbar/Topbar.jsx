@@ -1,5 +1,7 @@
 import React, { useRef } from "react";
-import logo from "../../assets/images/texas.png";
+// import logo from "../../assets/images/texas.png";
+import logo from "../../assets/images/texaslogo.png";
+
 import { NavLink } from "react-router-dom";
 
 const nav__links = [
@@ -41,8 +43,8 @@ export default function Topbar() {
   return (
     <div className="h-[75px] w-full flex items-center justify-center sticky top-0 z-[999] bg-[#27335933] rounded-2xl shadow-md backdrop-blur-[15px] border border-solid border-[#0000004d]">
       <div className="absolute left-0">
-        <div className="w-[68px] ml-[12px]">
-          <img className="border border-[red] rounded-full cursor-pointer" src={logo} alt="" />
+        <div className="w-[70px] ml-[12px]">
+          <img className="border-[2px] border-[#d06767] rounded-3xl pr-1 cursor-pointer" src={logo} alt="" />
         </div>
       </div>
 
