@@ -16,13 +16,33 @@ export default function PtaMacs() {
                 <h1 className="text-left text-2xl font-normal text-[#05055edb] mt-0 mb-[8px] mx-auto">
                   What is the PTA MACS?
                   <p className="text-base font-normal leading-6 text-black mt-[8px] mb-0 mx-auto">
-                    The Physical Therapist Assistant Manual for the Assessment of Clinical Skills (PTA MACS), 2nd
-                    Edition describes the skills that a newly graduated physical therapist assistant must be able to
-                    perform in order to engage in safe and effective practice. The skills in the PTA MACS are based on
-                    (1) entry-level physical therapist assistant education criteria as defined by A Normative Model for
-                    Physical Therapist Assistant Education, (2) standards of practice, elements of patient/client
-                    management and terminology as defined by The Guide to Physical Therapist Assistant Practice 3.0, and
-                    (3) standards of professional behavior initially defined as the Generic Abilities
+                    The <i>Physical Therapist Assistant Manual for the Assessment of Clinical Skills (PTA MACS)</i> is a
+                    clinical skills assessment document that has been developed and revised by PTA academic and clinical
+                    faculty. Its format is similar to the <i>PTA Blue MACS</i>, an assessment tool originally developed
+                    by The Committee for the PTA Blue MACS in 1982 at St. Phillips College, San Antonio, Texas. This
+                    original form was adapted from <i>The Blue MACS</i> as developed by the Texas Consortium for
+                    Physical Therapy Clinical Education.
+                    <br />
+                    <br /> The <i>PTA MACS</i> is used as a method for evaluating clinical performance and a tool to
+                    promote clinical teaching and learning. It identifies skills every student needs to develop in order
+                    to be considered entry-level. The skill content of the <i>PTA MACS</i> was developed based upon
+                    definitions for professional behaviors identified as the <i>Generic Abilities</i>. Guidelines for
+                    entry-level clinical practice were incorporated into the <i>PTA MACS</i> from information outlined
+                    in{" "}
+                    <i>
+                      Minimum Required Skills of Physical Therapist Assistant Graduates at Entry-Level, A Normative
+                      Model of Physical Therapist Assistant Education
+                    </i>
+                    , and from the <i>Guide for Physical Therapist Practice</i>. Clinical instructors and students can
+                    also use the <i>PTA MACS</i> to collaborate in developing a successful clinical learning experience.
+                    Educational requirements necessary for entry-level practice were also incorporated into the{" "}
+                    <i>PTA MACS</i>
+                    and were developed from the{" "}
+                    <i>
+                      Standards and Required Elements for Accreditation of Physical Therapist Assistant Education
+                      Programs
+                    </i>
+                    .
                   </p>
                 </h1>
               </Row>

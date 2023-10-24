@@ -22,14 +22,11 @@ export default function AboutUs() {
               <Row className="z-[99]">
                 <Col className="flex text-[#000] ">
                   <h1 className="text-left text-2xl font-normal text-[#05055edb] mt-0 mb-[8px] mx-auto">
-                    Enhancing Academic and Clinical Partnership in PTA Education
+                    Advancing Clinical and Academic Partnership in PTA Education
                     <p className="text-base font-normal leading-6 text-black rounded mt-[16px] mb-0 mx-auto">
-                      The primary purpose of this group is to coordinate all aspects of physical therapist assistant
-                      clinical education. The Consortium functions with the financial support from the participating
-                      Universities. The Consortium has reduced the time, effort and cost of maintaining quality clinical
-                      education for the state's physical therapist assistant students. In addition, The Consortium
-                      provides continuing education opportunities and training workshops for Clinical Instructors as
-                      well as Academic Coordinators of Clinical Education from all parts of the nation.
+                      The Texas Alliance of Physical Therapist Assistant Educators (TAPTAE) consists of 28 academic
+                      programs of physical therapist assistant education, represented by program directors, academic
+                      coordinators of clinical education and faculty from the member institutions.
                     </p>
                   </h1>
                   <img
@@ -45,10 +42,9 @@ export default function AboutUs() {
                 <h1 className="text-left text-2xl font-normal text-[#05055edb] mt-0 mb-[8px] mx-auto">Focus</h1>
                 <p className="text-base font-normal leading-6 text-black rounded mt-[16px] mb-0 mx-auto">
                   Here, you will find a central source of information about the many Physical Therapist Assistant
-                  programs in Texas, especially with respect to clinical education. It includes a list of members and
-                  access to the Texas Consortium Clinical Education Certification Course. This course has two parts:
-                  Part I: online and accessible through this website; Part II: a face-face class to be done after Part I
-                  is completed online.
+                  programs in Texas. TAPTAE developed the Physical Therapist Assistant Manual for the Assessment of
+                  Clinical Skills (PTA MACS) and meets bi-annually to discuss current teaching methodology,
+                  accreditation, and TAPTAE policy and procedures.
                 </p>
               </Row>
 
@@ -58,18 +54,18 @@ export default function AboutUs() {
                 <h1 className="text-left text-2xl font-normal text-[#05055edb] mt-0 mb-[8px] mx-auto">Incorporation</h1>
                 <p className="text-base font-normal leading-6 text-black rounded mt-[16px] mb-0 mx-auto">
                   The Texas Alliance of Physical Therapist Assistant Educators (TAPTAE) is the result of a collaborative
-                  arrangement among the physical therapy assistant programs in the state.
+                  arrangement among the physical therapist assistant programs in the state.
                 </p>
               </Row>
 
-              <hr className="w-full border border-[#999] my-[16px] mx-[auto]" />
+              {/* <hr className="w-full border border-[#999] my-[16px] mx-[auto]" /> */}
 
-              <Row className="z-[99]">
+              {/* <Row className="z-[99]">
                 <h1 className="text-left text-2xl font-normal text-[#05055edb] mt-0 mb-[8px] mx-auto">Members List</h1>
                 <a href="/members" className="text-lg pl-2 text-[blue] hover:underline">
                   Click here for Consortium member and contact information.
                 </a>
-              </Row>
+              </Row> */}
             </div>
 
             <hr className="w-full border-[2px] border-[#999] my-[32px] mx-auto" />

@@ -17,7 +17,7 @@ export default function Resources() {
             <div className="rounded-sm bg-[#0000000d] pt-[16px] pb-[32px] px-[16px] border-b-[2px] border-b-[#999]">
               <Row>
                 <Col className="flex text-[black]">
-                  <h1 className="text-left text-2xl font-normal mt-0 mb-[8px] mx-auto text-[#05055edb]">
+                  {/* <h1 className="text-left text-2xl font-normal mt-0 mb-[8px] mx-auto text-[#05055edb]">
                     Resources for Site Coordinators of Clinical Education (SCCEs)
                     <ul className="mt-[16px]">
                       <li>
@@ -31,14 +31,14 @@ export default function Resources() {
                         </a>
                       </li>
                     </ul>
-                  </h1>
+                  </h1> */}
                 </Col>
               </Row>
               <hr className="w-full border-b-[1px] border-b-[#eee] my-[16px] mx-[auto]" />
 
               <Row className="">
                 <Col className="flex text-[black]">
-                  <h1 className="text-left text-2xl font-normal mt-0 mb-[8px] mx-auto text-[#05055edb]">
+                  {/* <h1 className="text-left text-2xl font-normal mt-0 mb-[8px] mx-auto text-[#05055edb]">
                     Resources for Clinical Instructors (CIs)
                     <ul className="mt-[16px]">
                       <li>
@@ -52,7 +52,7 @@ export default function Resources() {
                         </a>
                       </li>
                     </ul>
-                  </h1>
+                  </h1> */}
                 </Col>
               </Row>
               <hr className="w-full border-b-[1px] border-b-[#eee] my-[16px] mx-[auto]" />

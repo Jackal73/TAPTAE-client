@@ -23,8 +23,7 @@ export default function Home() {
               <Col className="flex">
                 <h1 className="text-center text-2xl font-semibold mt-0 mb-[24px] mx-auto">
                   <i>
-                    Advancing Clinical and Academic Partnership
-                    <br /> in PTA Education
+                    Promoting collaboration and quality education <br /> in PTA Programs across Texas
                   </i>
                 </h1>
               </Col>
@@ -33,8 +32,8 @@ export default function Home() {
               <Col className="flex bg-[#2733597a] backdrop-blur-[10px] rounded-md p-[24px] w-3/5 m-auto border border-[#0000004d]">
                 <p className="text-center text-lg font-[600] m-auto text-[#fff] rounded">
                   <i>
-                    We welcome you to the Texas Alliance of Physical Therapist Assistant Educators (TAPTAE) website. Our
-                    primary focus is to promote excellence in Physical Therapist Assistant Clinical Education.
+                    We welcome you to the Texas Alliance of Physical Therapist Assistant Educator’s (TAPTAE) website.
+                    Our primary focus is to promote excellence in Physical Therapist Assistant Education.”
                   </i>
                 </p>
               </Col>
@@ -69,7 +68,7 @@ export default function Home() {
                     {" "}
                     <a
                       href="/ptamacs"
-                      className="text-lg px-[24px] border border-transparent text-[#b4b4f8] hover:border-b hover:underline"
+                      className="text-lg px-[24px] border border-transparent text-[#9999f4] hover:border-b hover:underline"
                     >
                       PTA MACS Information
                     </a>
