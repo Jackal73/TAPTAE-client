@@ -52,6 +52,15 @@ export default function Home() {
                 <br />
 
                 <div className="pt-[20px] pl-[16px]">
+                  <div className="flex items-center">
+                    {" "}
+                    <a
+                      href="/ptamacs"
+                      className="text-lg px-[24px] border border-transparent text-[#d7d7fa] hover:border-b hover:underline"
+                    >
+                      PTA MACS Information
+                    </a>
+                  </div>
                   <div className="pb-[16px]">
                     {" "}
                     <a
@@ -61,16 +70,6 @@ export default function Home() {
                       <span className="text-[red]">* </span>
                       PTA MACS Order Form
                       <span className="text-[red]"> *</span>
-                    </a>
-                  </div>
-
-                  <div className="flex items-center">
-                    {" "}
-                    <a
-                      href="/ptamacs"
-                      className="text-lg px-[24px] border border-transparent text-[#9999f4] hover:border-b hover:underline"
-                    >
-                      PTA MACS Information
                     </a>
                   </div>
                 </div>

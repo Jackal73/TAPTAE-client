@@ -40,7 +40,7 @@ export default function AboutUs() {
 
               <Row className="z-[99]">
                 <h1 className="text-left text-2xl font-normal text-[#05055edb] mt-0 mb-[8px] mx-auto">Focus</h1>
-                <p className="text-base font-normal leading-6 text-black rounded mt-[16px] mb-0 mx-auto">
+                <p className="text-base font-normal leading-6 text-black rounded mt-[16px] mb-0 pb-[16px] mx-auto">
                   Here, you will find a central source of information about the many Physical Therapist Assistant
                   programs in Texas. TAPTAE developed the Physical Therapist Assistant Manual for the Assessment of
                   Clinical Skills (PTA MACS) and meets bi-annually to discuss current teaching methodology,
@@ -68,7 +68,7 @@ export default function AboutUs() {
               </Row> */}
             </div>
 
-            <hr className="w-full border-[2px] border-[#999] my-[32px] mx-auto" />
+            {/* <hr className="w-full border-[2px] border-[#999] my-[32px] mx-auto" /> */}
           </div>
         </div>
       </div>

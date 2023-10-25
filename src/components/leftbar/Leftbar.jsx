@@ -6,7 +6,10 @@ export default function Leftbar() {
   return (
     <div className="flex-[1.5] h-[calc(100vh-76px)] overflow-y-scroll sticky top-[78]">
       <div className="w-full rounded-2xl  bg-[#27335933] shadow-md backdrop-blur-[15px] border border-[#0000004d] p-[10px] absolute left-0 ">
-        <div className="flex justify-center text-[blue] text-xl mb-2">Texas Physical Therapist Assistant Programs</div>
+        <div className="flex justify-center text-[blue] text-xl mb-2 text-center">
+          Texas Physical Therapist
+          <br /> Assistant Programs
+        </div>
         <hr className="leftBarHr" />
 
         <ul className="list-none mt-2 leading-3 p-0 text-center">
