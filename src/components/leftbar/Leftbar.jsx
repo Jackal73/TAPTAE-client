@@ -13,32 +13,34 @@ export default function Leftbar() {
         <hr className="leftBarHr" />
 
         <ul className="list-none mt-2 leading-3 p-0 text-center">
-          <li className="mb-[6px] hover:border-[blue] border border-transparent hover:rounded hover:text-[blue] pb-[2px]">
-            <a
-              href="https://www.actx.edu/phys_therapist/index.php"
-              className={`${styles.schoolLink}`}
-              alt="link"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+          <a
+            href="https://www.actx.edu/phys_therapist/index.php"
+            className={`${styles.schoolLink}`}
+            alt="link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <li className="mb-[6px] hover:border-[blue] border border-transparent hover:rounded hover:text-[blue] pb-[2px]">
               Amarillo College
-            </a>
-            <br />
-            <span className={`${styles.shortUrl}`}>https://www.actx.edu</span>
-          </li>
-          <li className={`${styles.affiliate}`}>
-            <a
-              href="https://sites.austincc.edu/health/ptha/"
-              className={`${styles.schoolLink}`}
-              alt="link"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+              <br />
+              <span className={`${styles.shortUrl}`}>https://www.actx.edu</span>
+            </li>
+          </a>
+          <a
+            href="https://sites.austincc.edu/health/ptha/"
+            className={`${styles.schoolLink}`}
+            alt="link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <li className={`${styles.affiliate}`}>
               Austin Community College
-            </a>
-            <br />
-            <span className={`${styles.shortUrl}`}>https://sites.austincc.edu/</span>
-          </li>
+              <br />
+              <span className={`${styles.shortUrl}`}>https://sites.austincc.edu/</span>
+            </li>
+          </a>
+
+          {/* ======================================================================= */}
           <li className={`${styles.affiliate}`}>
             <a
               href="https://www.blinn.edu/physical-therapist-assistant/index.html"
@@ -285,6 +287,19 @@ export default function Leftbar() {
             </a>
             <br />
             <span className={`${styles.shortUrl}`}>https://www.southtexascollege.edu/</span>
+          </li>
+          <li className={`${styles.affiliate}`}>
+            <a
+              href="https://www.southuniversity.edu/austin/physical-therapist-assistant-as"
+              className={`${styles.schoolLink}`}
+              alt="link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              South University – Austin
+            </a>
+            <br />
+            <span className={`${styles.shortUrl}`}>https://www.southuniversity.edu/</span>
           </li>
           <li className={`${styles.affiliate}`}>
             <a
