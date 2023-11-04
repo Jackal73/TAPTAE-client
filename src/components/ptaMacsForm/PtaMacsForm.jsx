@@ -23,7 +23,7 @@ const PtaMacsForm = () => {
       <div className="flex w-full">
         <div className="flex-[6]">
           <div className="mt-[25px] 800px:px-[25px] pb-[25px]">
-            <div className="bg-[#0000000d] pt-[16px] pb-[32px] 480px:px-[16px] border-b-[2px] border-b-[#999] flex">
+            <div className="bg-[#0000000d] pt-[16px] pb-[32px] 480px:px-[16px] border-b-[2px] border-b-[#999]">
               <form className="App 800px:scale-[.9]" onSubmit={handleSubmit}>
                 <h3 className="h3">Texas Alliance of Physical Therapist Assistant Educators (TAPTAE)</h3>
                 <div className="flex items-center justify-center">
@@ -95,6 +95,9 @@ const PtaMacsForm = () => {
                     className="input-1"
                   />
                 </div>
+                <div className="mb-2">
+                  <span className="bg-[#3a4257] text-white p-1">(Allow at least 2 weeks for delivery)</span>
+                </div>
                 {/* <h4 className="directions">
                   <i className="ptamacs-order">PTA MACS order</i> Pick one of the options below and write the number of
                   PTA MACS in the space before the type of publication ordering—when completing form with a computer the
@@ -114,7 +117,7 @@ const PtaMacsForm = () => {
                         type="number"
                         name="emac"
                         placeholder="1"
-                        className="w-[8%] h-[25px] mt-1 border-2 border-[#888]"
+                        className="input-2 w-[8%] h-[25px] mt-1 border-2 border-[#888]"
                       />
                       <span className=""> e-Mac (on line version) @ $25 each</span>
                     </div>
@@ -123,12 +126,12 @@ const PtaMacsForm = () => {
                         type="number"
                         name="emac"
                         placeholder="2"
-                        className="w-[8%] h-[25px] border-2 border-[#888]"
+                        className="input-2 w-[8%] h-[25px] border-2 border-[#888]"
                       />
                       <span className=""> Binder TAPTAE Members (printed) @ $50 each, plus S&H</span>
                     </div>
                     <div className="mt-2">
-                      <input type="number" name="emac" className="w-[8%] h-[25px] border-2 border-[#888]" />
+                      <input type="number" name="emac" className="input-2 w-[8%] h-[25px] border-2 border-[#888]" />
                       <span className=""> Binder TAPTAE Non-Members (printed) @ $60 each, plus S&H</span>
                     </div>
                   </div>
@@ -137,7 +140,7 @@ const PtaMacsForm = () => {
                       <span className="font-semibold text-lg text-black">Subtotal</span>
                       <div className="mt-1">$25</div>
                       <div className="mt-2">$100</div>
-                      <div className="mt-2">$</div>
+                      <div className="mt-2"></div>
                     </div>
                   </div>
                   <div className="">
@@ -159,7 +162,7 @@ const PtaMacsForm = () => {
                       <span className="font-semibold text-lg text-black">Total</span>
                       <div className="mt-1">$25</div>
                       <div className="mt-2">$120</div>
-                      <div className="mt-2">$</div>
+                      <div className="mt-2 text-transparent border-b-2 border-[#3a4257]">$</div>
                       <div className="font-bold text-lg mt-2 border-2 p-1 border-[#3a4257] text-[#3a4257]">
                         Order Total: $145
                       </div>
@@ -183,9 +186,11 @@ const PtaMacsForm = () => {
                       Ordering
                     </span>
                     <div className="">
-                      <ul className="pl-3">
+                      <ul className="pl-3 pt-2 pb-2">
                         {/* <li className="">Fill out, fax or e-mail this form to: Michele Voight</li> */}
-                        <li className="">Fill out this form and press "Submit Your Order" below</li>
+                        <li className="">
+                          Fill out this form and press <em className="font-semibold">"Submit Your Order"</em> below
+                        </li>
                         <li className="">Fax: 713-718-6495</li>
                         <li className="">
                           e-mail:{" "}
@@ -203,7 +208,7 @@ const PtaMacsForm = () => {
                       Payment
                     </span>
                     <div className="">
-                      <ul className="pl-3">
+                      <ul className="pl-3 pt-2">
                         <li className="">Mail checks to:</li>
                         <li className="">Dr. Renee Pruitt (Treasurer)</li>
                         <li className="">3600 FM 1488 RD 120-159</li>

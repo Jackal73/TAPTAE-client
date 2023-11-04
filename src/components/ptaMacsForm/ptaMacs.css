@@ -93,6 +93,7 @@ form {
   width: 85%;
   padding: 0.5rem;
   outline: none;
+
   border-radius: 6px;
   background: transparent;
   margin: 1rem 0;
@@ -101,8 +102,12 @@ form {
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
 }
 
+.input-2 {
+  text-align: center;
+}
+
 input::placeholder {
-  color: #bdc2cc !important;
+  color: #b2b6bd !important;
 }
 .button-1 {
   background: #3a4257 !important;
