@@ -7,7 +7,9 @@ import hero1 from "../../assets/images/p-therapy.jpg";
 export default function Home() {
   return (
     <>
-      <Topbar />
+      <div className="hidden sm:flex">
+        <Topbar />
+      </div>
       <div className="flex w-full">
         <Leftbar />
         <div className="flex-[6] container">
@@ -45,7 +47,7 @@ export default function Home() {
             >
               <div className="my-0 mr-0 flex justify-around">
                 <img
-                  className="flex rounded-full border-[2px] border-[#fff] my-[3px] mx-0 w-auto h-28 object-cover justify-center"
+                  className="hidden 1000px:flex rounded-full border-[2px] border-[#fff] my-[3px] mx-0 w-auto h-20 1200px:h-28 object-cover justify-center"
                   src={hero1}
                   alt=""
                 />
@@ -56,7 +58,7 @@ export default function Home() {
                     {" "}
                     <a
                       href="/ptamacs"
-                      className="text-lg px-[24px] border border-transparent text-[#d7d7fa] hover:border-b hover:underline"
+                      className="1300px:text-lg text-xs 1200px:px-[24px] px-2 border border-transparent text-[#d7d7fa] hover:border-b hover:underline"
                     >
                       PTA MACS Information
                     </a>
@@ -65,7 +67,7 @@ export default function Home() {
                     {" "}
                     <a
                       href="/ptamacsform"
-                      className="text-lg px-[12px] border border-transparent text-[#d06767] hover:border-b hover:underline"
+                      className="1300px:text-lg text-xs 1200px:px-[24px] px-2 border border-transparent text-[#d06767] hover:border-b hover:underline"
                     >
                       <span className="text-[red]">* </span>
                       PTA MACS Order Form
