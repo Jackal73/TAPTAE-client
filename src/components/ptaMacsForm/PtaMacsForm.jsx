@@ -1,10 +1,7 @@
 import React, { useState } from "react";
+import PhoneInput from "react-phone-number-input/input";
 import Topbar from "../topbar/Topbar";
 import "./ptaMacs.css";
-import Leftbar from "../leftbar/Leftbar";
-import { Row } from "reactstrap";
-import PTAmacs from "../pdf/Fillable MACS Form 3rd Edition[1069].pdf";
-import PhoneInput from "react-phone-number-input/input";
 
 const PtaMacsForm = () => {
   const [FrmData, setFrmData] = useState("");
@@ -20,14 +17,13 @@ const PtaMacsForm = () => {
     });
   };
 
-  const handleInputChange = (event) => {};
-
+  // function to submit form data to Google Sheets
   function Submit(e) {
     const formEle = document.querySelector("form");
     const formDatab = new FormData(formEle);
     e.preventDefault();
 
-    console.log("Submitted");
+    console.log("Successfully submitted");
     fetch(
       "https://script.google.com/macros/s/AKfycbwB9vQ9_U6RvIUgUp4_jOaJiboJlSrqYaBSIe5UBzvYV_SDtvd60A3Ke8pQ9OX-MPaxjQ/exec",
       {
@@ -35,6 +31,9 @@ const PtaMacsForm = () => {
         body: formDatab,
       }
     );
+    setTimeout(function () {
+      window.location.href = "/home";
+    }, 1500);
   }
 
   const order1 = FrmData.EmacOrderNum > 0 ? FrmData.EmacOrderNum * 25 : 0;
@@ -62,7 +61,6 @@ const PtaMacsForm = () => {
                     <br /> Assessment of Clinical Skills
                   </h1>
                 </div>
-
                 <p className="form-title">
                   <i>PTA MACS</i> Order Form
                 </p>
@@ -72,17 +70,9 @@ const PtaMacsForm = () => {
                   <input type="text" name="Organization" placeholder="Organization Name" className="input-1" />
                 </div>
                 <div className="input-div">
-                  <input type="address" name="Address" placeholder="Shipping Address Street" className="input-1" />
-
-                  <input
-                    type="text"
-                    name="Address2"
-                    placeholder="Shipping Address Line 2"
-                    onChange={handleInputChange}
-                    className="input-1"
-                  />
+                  <input type="address" name="Address" placeholder="Shipping Address-Street" className="input-1" />
+                  <input type="text" name="Address2" placeholder="Shipping Address-Line 2" className="input-1" />
                 </div>
-
                 <div className="input-div">
                   <input type="text" name="City" placeholder="City" className="input-1" />
                   <input type="text" name="State" placeholder="State" className="input-1" />
@@ -115,17 +105,14 @@ const PtaMacsForm = () => {
                 <div className="mb-2">
                   <span className="bg-[#3a4257] text-white pt-0 pb-1 px-1">(Allow at least 2 weeks for delivery)</span>
                 </div>
-
                 <h4 className="directions">
                   <i className="ptamacs-order text-[blue]">PTA MACS order</i> Pick one of the options below and write
                   the number of PTA MACS in the space before the type of publication ordering. Each binder order
                   includes a $20.00 shipping and handling fee.
                 </h4>
-
                 <div className="grid grid-cols-7 w-[90%] mt-2">
                   <div className="col-span-4">
                     <span className="font-semibold text-lg text-black">Number of PTA MACS</span>
-
                     <div className="">
                       <input
                         type="number"
@@ -138,7 +125,6 @@ const PtaMacsForm = () => {
                       />
                       <span className="ml-1"> e-Mac (on line version) @ $25 each</span>
                     </div>
-
                     <div className="mt-2">
                       <input
                         type="number"
@@ -150,7 +136,6 @@ const PtaMacsForm = () => {
                       />
                       <span className="ml-1"> Binder TAPTAE Members (printed) @ $50 each, +S&H</span>
                     </div>
-
                     <div className="mt-2">
                       <input
                         type="number"
@@ -163,7 +148,6 @@ const PtaMacsForm = () => {
                       <span className="ml-1"> Binder TAPTAE Non-Members (printed) @ $60 each, +S&H</span>
                     </div>
                   </div>
-
                   <div className=" hidden 600px:flex">
                     <div className="">
                       <span className="font-semibold text-lg text-black">Subtotal</span>
@@ -175,7 +159,6 @@ const PtaMacsForm = () => {
                           onChange={handleOnChange}
                         />
                       </div>
-
                       <div className="">
                         <input
                           name="MemberSubtotal"
@@ -206,7 +189,6 @@ const PtaMacsForm = () => {
                       <div className="mt-2">
                         <span className="">+ $20.00</span>
                       </div>
-
                       <div className="mb-3 pb-1 text-transparent border-b-2 border-[#3a4257]">$</div>
                       <span className="font-semibold text-[1.2rem]">Total Order:</span>
                     </div>
@@ -240,13 +222,10 @@ const PtaMacsForm = () => {
                           onChange={handleOnChange}
                         />
                       </div>
-
                       <div className=" mt-1 text-transparent border-b-2 border-[#3a4257]">$</div>
                       <div className="w-[120px] mt-2 border-2 border-[blue]">
                         {" "}
-                        {/* <span className="font-semibold text-[.9rem]">Your Total Order:</span> */}
                         <div className="">
-                          {/* <span className="ml-1 mr-[2px] font-bold text-[1.3rem] text-[blue]">$</span> */}
                           <input
                             name="TotalOrder"
                             className="ml-1 w-[90px] bg-transparent font-bold text-[1.3rem] text-[blue]"
@@ -319,8 +298,6 @@ const PtaMacsForm = () => {
                 <button name="" type="submit" className="button-1">
                   Submit Your Order
                 </button>
-
-                {/* <input name="Name" type="submit" /> */}
               </form>
             </div>
           </div>
