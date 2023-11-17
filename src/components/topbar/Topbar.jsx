@@ -1,5 +1,5 @@
 import React, { useRef } from "react";
-import logo from "../../assets/images/texaslogo.png";
+import logo from "../../assets/images/texasLogo.png";
 
 import { NavLink } from "react-router-dom";
 
