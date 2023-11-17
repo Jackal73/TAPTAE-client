@@ -1,7 +1,7 @@
 import React, { useRef, useState } from "react";
 import PhoneInput from "react-phone-number-input/input";
 
-import { iconSuccess } from "../../assets/images/texas-logo.png";
+import iconSuccess from "../../assets/images/texas-logo.png";
 import Topbar from "../topbar/Topbar";
 import "./ptaMacs.css";
 
