@@ -1,5 +1,7 @@
 import React, { useRef, useState } from "react";
 import PhoneInput from "react-phone-number-input/input";
+
+import { iconSuccess } from "../../assets/images/texas-logo.png";
 import Topbar from "../topbar/Topbar";
 import "./ptaMacs.css";
 
@@ -12,9 +14,9 @@ const PtaMacsForm = () => {
   const [showState, setShowState] = useState(false);
   const inputRefEmail = useRef(null);
 
-  function isValidEmail(email) {
-    return /\S+@\S+\.\W+/.test(email);
-  }
+  // function isValidEmail(email) {
+  //   return /\S+@\S+\.\W+/.test(email);
+  // }
 
   const switchToSignup = () => {
     window.location.href = "/home";
@@ -64,7 +66,7 @@ const PtaMacsForm = () => {
         <div className="container-thank">
           <div className="flex flex-col p-3 items-center justify-center rounded-[15px] w-[530px] backdrop-blur-[15px] border-2 border-[#000]">
             <div className="mt-3">
-              {/* <img className="border-[2px] border-[#d06767] rounded-3xl pr-1" src={iconSuccess} alt="" /> */}
+              <img className="border-[2px] border-[#d06767] rounded-3xl pr-1" src={iconSuccess} alt="" />
             </div>
 
             <h1 className="text-[#ff0000af]">Thank you!</h1>
