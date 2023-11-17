@@ -64,7 +64,7 @@ const PtaMacsForm = () => {
     return (
       <div className="flex flex-col mt-[45px]">
         <div className="container-thank">
-          <div className="flex flex-col p-3 items-center justify-center rounded-[15px] w-[530px] backdrop-blur-[15px] border-2 border-[#000]">
+          <div className="flex flex-col p-3 items-center justify-center rounded-[15px] w-[530px] backdrop-blur-[15px] border-2 border-[blue]">
             <div className="mt-3">
               <img className="border-[2px] border-[#d06767] rounded-3xl pr-1" src={iconSuccess} alt="" />
             </div>
