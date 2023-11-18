@@ -1,5 +1,6 @@
 import React, { useRef, useState } from "react";
 import PhoneInput from "react-phone-number-input/input";
+import emailjs from "@emailjs/browser";
 
 import iconSuccess from "../../assets/images/texas-logo.png";
 import Topbar from "../topbar/Topbar";
@@ -13,6 +14,7 @@ const PtaMacsForm = () => {
 
   const [showState, setShowState] = useState(false);
   const inputRefEmail = useRef(null);
+  const form = useRef();
 
   // function isValidEmail(email) {
   //   return /\S+@\S+\.\W+/.test(email);
@@ -53,7 +55,21 @@ const PtaMacsForm = () => {
     setTimeout(function () {
       setShowState(true);
     }, 750);
+    sendEmail(e);
   }
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm("service_pzd3iyk", "template_ynmsynn", form.current, "ayFb8lBIUAPEnYeal").then(
+      (result) => {
+        console.log(result.text);
+      },
+      (error) => {
+        console.log(error.text);
+      }
+    );
+  };
 
   const order1 = FrmData.EmacOrderNum > 0 ? FrmData.EmacOrderNum * 25 : 0;
   const order2 = FrmData.MemberOrderNum > 0 ? FrmData.MemberOrderNum * 50 + 20 : 0;
@@ -106,6 +122,7 @@ const PtaMacsForm = () => {
                 <form
                   className="form App 800px:scale-[.9] mx-[1rem] 800px:mx-[4rem] -mt-[2rem]"
                   onSubmit={(e) => Submit(e)}
+                  ref={form}
                 >
                   <h3 className="h3">Texas Alliance of Physical Therapist Assistant Educators (TAPTAE)</h3>
                   <div className="flex items-center justify-center">
@@ -161,7 +178,21 @@ const PtaMacsForm = () => {
                       value={currentEmailValue()}
                       onChange={(e) => setValueEmail(e.target.value)}
                     />
+
                     <input type="date" name="NeededBy" placeholder="Date Needed" className="input-1" />
+
+                    {/* =============================================================== */}
+                    <textarea
+                      type="textarea"
+                      rows="5"
+                      value="Thank you for your order. Payment is required in full prior to shipment. Please refer to the instructions below for payment options and instructions. For any questions please contact: Michele Voight."
+                      name="Message"
+                      placeholder=""
+                      className=""
+                      readOnly
+                    />
+
+                    {/* =============================================================== */}
                   </div>
                   <div className="mb-2">
                     <span className="bg-[#3a4257] text-white pt-0 pb-1 px-1">
@@ -182,7 +213,7 @@ const PtaMacsForm = () => {
                           name="EmacOrderNum"
                           min="0"
                           onChange={handleOnChange}
-                          value={FrmData.EmacOrderNum}
+                          value={FrmData.EmacOrderNum > 0 ? FrmData.EmacOrderNum : 0}
                           placeholder=""
                           className="input-2 w-[24px] 800px:w-[8%] h-[25px] mt-1 border-2 border-[#888]"
                         />
@@ -194,7 +225,7 @@ const PtaMacsForm = () => {
                           name="MemberOrderNum"
                           min="0"
                           onChange={handleOnChange}
-                          value={FrmData.MemberOrderNum}
+                          value={FrmData.MemberOrderNum > 0 ? FrmData.MemberOrderNum : 0}
                           className="input-2 w-[24px] 800px:w-[8%] h-[25px] border-2 border-[#888]"
                         />
                         <span className="ml-1"> Binder TAPTAE Members (printed) @ $50 each, +S&H</span>
@@ -205,7 +236,7 @@ const PtaMacsForm = () => {
                           name="NonMemberOrderNum"
                           min="0"
                           onChange={handleOnChange}
-                          value={FrmData.NonMemberOrderNum}
+                          value={FrmData.NonMemberOrderNum > 0 ? FrmData.NonMemberOrderNum : 0}
                           className="input-2 w-[24px] 800px:w-[8%] h-[25px] border-2 border-[#888]"
                         />
                         <span className="ml-1"> Binder TAPTAE Non-Members (printed) @ $60 each, +S&H</span>
