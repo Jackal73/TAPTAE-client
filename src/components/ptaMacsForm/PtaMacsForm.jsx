@@ -185,7 +185,7 @@ const PtaMacsForm = () => {
                     <textarea
                       type="textarea"
                       rows="5"
-                      value="Thank you for your order. Payment is required in full prior to shipment. Please refer to the instructions below for payment options and instructions. For any questions please contact: Michele Voight."
+                      value="Thank you for your order. Payment is required in full prior to shipment. Please refer to the instructions below for payment options. For any questions please contact Michele Voight."
                       name="Message"
                       placeholder=""
                       className=""
