@@ -16,10 +16,6 @@ const PtaMacsForm = () => {
   const inputRefEmail = useRef(null);
   const form = useRef();
 
-  // function isValidEmail(email) {
-  //   return /\S+@\S+\.\W+/.test(email);
-  // }
-
   const switchToSignup = () => {
     window.location.href = "/home";
   };
@@ -178,7 +174,7 @@ const PtaMacsForm = () => {
                       value={currentEmailValue()}
                       onChange={(e) => setValueEmail(e.target.value)}
                     />
-
+                    <label className="font-bold">Needed:</label>
                     <input type="date" name="NeededBy" placeholder="Date Needed" className="input-1" />
 
                     {/* =============================================================== */}
