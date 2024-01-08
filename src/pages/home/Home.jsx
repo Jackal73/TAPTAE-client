@@ -12,35 +12,39 @@ export default function Home() {
       </div>
       <div className="flex w-full">
         <Leftbar />
-        <div className="flex-[6] container">
+        <div className="flex-[10] container">
           <div className="pt-[10px] px-[25px] pb-[25px]">
             <Row>
               <Col className="flex">
-                <h1 className="text-center font-medium mt-0 mb-[16px] mx-auto text-[36px]">
-                  Texas Alliance of Physical Therapist Assistant Educators (<span className="text-[blue]">TAPTAE</span>)
+                <h1 className="text-center font-medium mt-32 mb-[16px] mx-auto text-[48px]">
+                  Texas Alliance of Physical Therapist Assistant Educators (
+                  <span className="text-[blue]">TAPTAE</span>)
                 </h1>
               </Col>
             </Row>
             <Row className="z-[99]">
               <Col className="flex">
-                <h1 className="text-center text-2xl font-semibold mt-0 mb-[24px] mx-auto">
+                <h1 className="text-center text-gray-900 text-4xl font-semibold mt-10 mb-[24px] mx-auto">
                   <i>
-                    Promoting collaboration and quality education <br /> in PTA Programs across Texas
+                    Promoting collaboration and quality education <br />
+                    <br /> in PTA Programs across Texas
                   </i>
                 </h1>
               </Col>
             </Row>
-            <Row>
+            {/* <Row>
               <Col className="flex bg-[#2733597a] backdrop-blur-[10px] rounded-md p-[24px] w-3/5 m-auto border border-[#0000004d]">
                 <p className="text-center text-lg font-[600] m-auto text-[#fff] rounded">
                   <i>
-                    We welcome you to the Texas Alliance of Physical Therapist Assistant Educator’s (TAPTAE) website.
-                    Our primary focus is to promote excellence in Physical Therapist Assistant Education.”
+                    We welcome you to the Texas Alliance of Physical Therapist
+                    Assistant Educator’s (TAPTAE) website. Our primary focus is
+                    to promote excellence in Physical Therapist Assistant
+                    Education.”
                   </i>
                 </p>
               </Col>
-            </Row>
-
+            </Row> */}
+            {/* 
             <Col
               lg="4"
               className="flex  bg-[#27335933] backdrop-blur-[10px] mt-8 rounded-md p-2 w-2/5 m-auto border border-[#0000004d]"
@@ -76,7 +80,7 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-            </Col>
+            </Col> */}
           </div>
         </div>
       </div>
