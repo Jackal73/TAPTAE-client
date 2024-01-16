@@ -3,36 +3,51 @@ import Topbar from "../../components/topbar/Topbar";
 import Leftbar from "../../components/leftbar/Leftbar";
 import { Col, Row } from "reactstrap";
 import hero1 from "../../assets/images/p-therapy.jpg";
+import { Link } from "react-router-dom";
 
 export default function Home() {
   return (
     <>
-      <div className="hidden sm:flex">
-        <Topbar />
-      </div>
-      <div className="flex w-full">
-        <Leftbar />
-        <div className="flex-[10] container">
-          <div className="pt-[10px] px-[25px] pb-[25px]">
-            <Row>
-              <Col className="flex">
-                <h1 className="text-center font-medium mt-32 mb-[16px] mx-auto text-[48px]">
-                  Texas Alliance of Physical Therapist Assistant Educators (
-                  <span className="text-[blue]">TAPTAE</span>)
+      {/* <div className="hidden sm:flex"> */}
+      <Topbar />
+      {/* </div> */}
+      <main className="opacity-[6]">
+        <div className="flex w-full">
+          <Leftbar />
+          <div className="flex-[8] main-container ">
+            <div className="pt-[10px] px-[25px] pb-[25px]">
+              <Row>
+                <Col className="flex">
+                  <h1 className="text-center font-bold mt-32 mb-[16px] mx-auto text-[3.5rem]">
+                    Texas Alliance of Physical Therapist Assistant Educators
+                    <br /> (<span className="text-[blue]">TAPTAE</span>)
+                  </h1>
+                </Col>
+              </Row>
+              <Row className="z-[99]">
+                <Col className="flex">
+                  <h1 className="text-center text-gray-900 text-4xl font-semibold mt-10 mb-[24px] mx-auto">
+                    <i>
+                      Promoting collaboration and quality education
+                      <br /> in PTA Programs across Texas
+                    </i>
+                  </h1>
+                </Col>
+              </Row>
+              <Row className="h-24"></Row>
+              <Row className="">
+                <h1 className="text-center text-2xl font-normal text-[#05055edb] mt-12 mb-[8px] mx-auto">
+                  <Link
+                    to="/ptaMacsForm"
+                    // href=""
+                    className="text-blue-700 border-2 p-2 font-semibold rounded-sm border-[blue] transition-all shadow-md shadow-black/70 hover:bg-[blue] hover:text-white bg-white/70 hover:!shadow-none"
+                    style={{ textDecoration: "none" }}
+                  >
+                    Order your PTA MACS here
+                  </Link>
                 </h1>
-              </Col>
-            </Row>
-            <Row className="z-[99]">
-              <Col className="flex">
-                <h1 className="text-center text-gray-900 text-4xl font-semibold mt-10 mb-[24px] mx-auto">
-                  <i>
-                    Promoting collaboration and quality education <br />
-                    <br /> in PTA Programs across Texas
-                  </i>
-                </h1>
-              </Col>
-            </Row>
-            {/* <Row>
+              </Row>
+              {/* <Row>
               <Col className="flex bg-[#2733597a] backdrop-blur-[10px] rounded-md p-[24px] w-3/5 m-auto border border-[#0000004d]">
                 <p className="text-center text-lg font-[600] m-auto text-[#fff] rounded">
                   <i>
@@ -44,7 +59,7 @@ export default function Home() {
                 </p>
               </Col>
             </Row> */}
-            {/* 
+              {/* 
             <Col
               lg="4"
               className="flex  bg-[#27335933] backdrop-blur-[10px] mt-8 rounded-md p-2 w-2/5 m-auto border border-[#0000004d]"
@@ -81,9 +96,10 @@ export default function Home() {
                 </div>
               </div>
             </Col> */}
+            </div>
           </div>
         </div>
-      </div>
+      </main>
     </>
   );
 }
