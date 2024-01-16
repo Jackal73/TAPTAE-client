@@ -6,6 +6,7 @@ import Members from "./pages/members/Members";
 import PtaMacs from "./pages/ptamacs/PtaMacs";
 import UpcomingCCUs from "./pages/upcomingCCUs/UpcomingCCUs";
 import PtaMacsForm from "./components/ptaMacsForm/PtaMacsForm";
+import ContactUs from "./pages/contactUs/ContactUs";
 import "./App.css";
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <Route path="/home">
           <Home />
         </Route>
+
         <Route exact path="/about">
           <AboutUs />
         </Route>
@@ -36,6 +38,9 @@ function App() {
         </Route>
         <Route exact path="/upcoming-ccus">
           <UpcomingCCUs />
+        </Route>
+        <Route exact path="/contact-us">
+          <ContactUs />
         </Route>
       </Switch>
     </Router>
