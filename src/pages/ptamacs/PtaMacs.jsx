@@ -7,17 +7,20 @@ export default function PtaMacs() {
   return (
     <>
       <Topbar />
-      <div className="flex w-full">
-        <Leftbar />
-        <div className="flex-[10]">
+      <div className="flex max-w-[1400px] mx-auto">
+        {/* <Leftbar /> */}
+        <div className="flex-[8]">
           <div className="mt-[30px] px-[25px] pb-[25px]">
+            <h1 className="flex font-bold text-center italic justify-center text-4xl text-blue-700 ">
+              ~ PTA MACS ~
+            </h1>
             <div
-              className="bg-[#0000000d] pt-[16px] pb-[32px] px-[16px] 
+              className="pt-[16px] pb-[32px] px-[16px] 
             
             "
             >
-              <Row className="mb-2">
-                <h1 className="text-left text-3xl font-normal text-[#05055edb] mt-0 mb-[8px] mx-auto">
+              <Row className="mb-2 w-[80%]">
+                <h1 className="text-left text-3xl font-normal text-[blue] mt-10 mb-[8px] mx-auto">
                   What is the PTA MACS?
                   <p className="text-base font-normal leading-6 text-black mt-[8px] mb-0 mx-auto">
                     The{" "}
@@ -62,10 +65,19 @@ export default function PtaMacs() {
                     .
                   </p>
                 </h1>
+                {/* <p className="text-base font-normal leading-6 text-black mt-[8px] mb-0 mx-auto">
+                  For in depth details of the PTA MACS click here:{" "}
+                  <a
+                    href="#!"
+                    className="text-lg pl-2 text-[blue] hover:underline"
+                  >
+                    PTA MACS
+                  </a>
+                </p> */}
               </Row>
               <br />
               <Row className="mb-2">
-                <h1 className="text-left text-3xl font-normal text-[#05055edb] mt-0 mb-[8px] mx-auto">
+                <h1 className="text-left text-3xl font-normal text-[blue] mt-0 mb-[8px] mx-auto">
                   PTA MACS Instructions
                   {/* and Video Tutorial */}
                 </h1>
@@ -91,7 +103,7 @@ export default function PtaMacs() {
                 <h1 className="text-center text-3xl font-normal text-[#05055edb] mt-12 mb-[8px] mx-auto">
                   <a
                     href="/ptaMacsForm"
-                    className="border p-2 rounded-md border-blue-500 transition hover:shadow-lg shadow-black"
+                    className="border p-2 rounded-sm border-[blue] transition hover:shadow-lg shadow-black hover:bg-[blue] hover:text-white"
                   >
                     Order your PTA MACS
                   </a>
