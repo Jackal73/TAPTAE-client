@@ -8,6 +8,7 @@ import UpcomingCCUs from "./pages/upcomingCCUs/UpcomingCCUs";
 import PtaMacsForm from "./components/ptaMacsForm/PtaMacsForm";
 import ContactUs from "./pages/contactUs/ContactUs";
 import "./App.css";
+import Instructions from "./pages/instructions/Instructions";
 
 function App() {
   return (
@@ -29,6 +30,9 @@ function App() {
         </Route>
         <Route exact path="/ptamacsform">
           <PtaMacsForm />
+        </Route>
+        <Route exact path="/instructions">
+          <Instructions />
         </Route>
         <Route exact path="/ptamacs">
           <PtaMacs />

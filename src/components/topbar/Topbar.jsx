@@ -30,10 +30,10 @@ const nav__links = [
   //   path: "/resources",
   //   display: "Members Portal",
   // },
-  {
-    path: "/upcoming-ccus",
-    display: "Upcoming CCUs",
-  },
+  // {
+  //   path: "/upcoming-ccus",
+  //   display: "Upcoming CCUs",
+  // },
   {
     path: "/contact-us",
     display: "Contact Us",
@@ -61,7 +61,7 @@ export default function Topbar() {
         ref={menuRef}
         onClick={toggleMenu}
       >
-        <ul className="flex mb-0 items-center gap-3">
+        <ul className="flex mb-0 items-center gap-1">
           {nav__links.map((item, index) => (
             <li className="nav__item" key={index}>
               <NavLink
