@@ -23,7 +23,9 @@ export default function Leftbar() {
             <li className={`${styles.affiliate}`}>
               Amarillo College
               <br />
-              <p className="text-[10px] text-[#555]">https://www.actx.edu</p>
+              <p className="text-[10px] text-[#555] hover:text-[blue]">
+                https://www.actx.edu
+              </p>
               {/* <span className={`${styles.shortUrl}`}>https://www.actx.edu</span> */}
             </li>
           </a>
@@ -37,7 +39,7 @@ export default function Leftbar() {
             <li className={`${styles.affiliate}`}>
               Austin Community College
               <br />
-              <p className="text-[10px] text-[#555]">
+              <p className="text-[10px] text-[#555] hover:text-[blue]">
                 https://sites.austincc.edu/
               </p>
             </li>
@@ -52,7 +54,9 @@ export default function Leftbar() {
             <li className={`${styles.affiliate}`}>
               Blinn College
               <br />
-              <p className="text-[10px] text-[#555]">https://www.blinn.edu/</p>
+              <p className="text-[10px] text-[#555] hover:text-[blue]">
+                https://www.blinn.edu/
+              </p>
             </li>
           </a>
           {/* ======================================================================= */}
@@ -66,7 +70,9 @@ export default function Leftbar() {
             <li className={`${styles.affiliate}`}>
               Collin College
               <br />
-              <p className="text-[10px] text-[#555]">https://www.collin.edu/</p>
+              <p className="text-[10px] text-[#555] hover:text-[blue]">
+                https://www.collin.edu/
+              </p>
             </li>
           </a>
           <a
@@ -79,7 +85,7 @@ export default function Leftbar() {
             <li className={`${styles.affiliate}`}>
               Concorde Career College-Dallas
               <br />
-              <p className="text-[10px] text-[#555]">
+              <p className="text-[10px] text-[#555] hover:text-[blue]">
                 https://www.concorde.edu/
               </p>
             </li>
@@ -94,7 +100,7 @@ export default function Leftbar() {
             <li className={`${styles.affiliate}`}>
               Concorde Career College-San Antonio
               <br />
-              <p className="text-[10px] text-[#555]">
+              <p className="text-[10px] text-[#555] hover:text-[blue]">
                 https://www.concorde.edu/
               </p>
             </li>
@@ -109,7 +115,9 @@ export default function Leftbar() {
             <li className={`${styles.affiliate}`}>
               Del Mar College
               <br />
-              <p className="text-[10px] text-[#555]">https://www.delmar.edu/</p>
+              <p className="text-[10px] text-[#555] hover:text-[blue]">
+                https://www.delmar.edu/
+              </p>
             </li>
           </a>
           <a
@@ -122,7 +130,9 @@ export default function Leftbar() {
             <li className={`${styles.affiliate}`}>
               El Paso Community College
               <br />
-              <p className="text-[10px] text-[#555]">https://www.epcc.edu/</p>
+              <p className="text-[10px] text-[#555] hover:text-[blue]">
+                https://www.epcc.edu/
+              </p>
             </li>
           </a>
           <a
@@ -135,7 +145,9 @@ export default function Leftbar() {
             <li className={`${styles.affiliate}`}>
               Houston Community College System
               <br />
-              <p className="text-[10px] text-[#555]">https://www.hccs.edu/</p>
+              <p className="text-[10px] text-[#555] hover:text-[blue]">
+                https://www.hccs.edu/
+              </p>
             </li>
           </a>
           <a
@@ -148,7 +160,7 @@ export default function Leftbar() {
             <li className={`${styles.affiliate}`}>
               Kilgore College
               <br />
-              <p className="text-[10px] text-[#555]">
+              <p className="text-[10px] text-[#555] hover:text-[blue]">
                 https://www.kilgore.edu/
               </p>
             </li>
@@ -163,7 +175,9 @@ export default function Leftbar() {
             <li className={`${styles.affiliate}`}>
               Laredo College
               <br />
-              <p className="text-[10px] text-[#555]">https://www.laredo.edu/</p>
+              <p className="text-[10px] text-[#555] hover:text-[blue]">
+                https://www.laredo.edu/
+              </p>
             </li>
           </a>
           <a
@@ -176,7 +190,7 @@ export default function Leftbar() {
             <li className={`${styles.affiliate}`}>
               Lone Star College–Montgomery
               <br />
-              <p className="text-[10px] text-[#555]">
+              <p className="text-[10px] text-[#555] hover:text-[blue]">
                 https://www.lonestar.edu/
               </p>
             </li>
@@ -193,7 +207,7 @@ export default function Leftbar() {
             <li className={`${styles.affiliate}`}>
               McLennan Community College
               <br />
-              <p className="text-[10px] text-[#555]">
+              <p className="text-[10px] text-[#555] hover:text-[blue]">
                 https://www.mclennan.edu/
               </p>
             </li>
@@ -209,7 +223,7 @@ export default function Leftbar() {
             <li className={`${styles.affiliate}`}>
               Navarro College
               <br />
-              <p className="text-[10px] text-[#555]">
+              <p className="text-[10px] text-[#555] hover:text-[blue]">
                 https://www.navarrocollege.edu/
               </p>
             </li>
@@ -225,7 +239,9 @@ export default function Leftbar() {
             <li className={`${styles.affiliate}`}>
               Northeast Texas Community College
               <br />
-              <p className="text-[10px] text-[#555]">https://www.ntcc.edu/</p>
+              <p className="text-[10px] text-[#555] hover:text-[blue]">
+                https://www.ntcc.edu/
+              </p>
             </li>
           </a>
 
@@ -239,7 +255,9 @@ export default function Leftbar() {
             <li className={`${styles.affiliate}`}>
               Odessa College
               <br />
-              <p className="text-[10px] text-[#555]">https://www.odessa.edu/</p>
+              <p className="text-[10px] text-[#555] hover:text-[blue]">
+                https://www.odessa.edu/
+              </p>
             </li>
           </a>
 
@@ -253,7 +271,9 @@ export default function Leftbar() {
             <li className={`${styles.affiliate}`}>
               Pima Medical Institute – Houston
               <br />
-              <p className="text-[10px] text-[#555]">https://pmi.edu/</p>
+              <p className="text-[10px] text-[#555] hover:text-[blue]">
+                https://pmi.edu/
+              </p>
             </li>
           </a>
 
@@ -267,7 +287,7 @@ export default function Leftbar() {
             <li className={`${styles.affiliate}`}>
               Rio Grande Valley College
               <br />
-              <p className="text-[10px] text-[#555]">
+              <p className="text-[10px] text-[#555] hover:text-[blue]">
                 https://www.rgvcollege.edu/
               </p>
             </li>
@@ -283,7 +303,9 @@ export default function Leftbar() {
             <li className={`${styles.affiliate}`}>
               San Jacinto College South
               <br />
-              <p className="text-[10px] text-[#555]">https://www.sanjac.edu/</p>
+              <p className="text-[10px] text-[#555] hover:text-[blue]">
+                https://www.sanjac.edu/
+              </p>
             </li>
           </a>
 
@@ -297,7 +319,7 @@ export default function Leftbar() {
             <li className={`${styles.affiliate}`}>
               South Plains College
               <br />
-              <p className="text-[10px] text-[#555]">
+              <p className="text-[10px] text-[#555] hover:text-[blue]">
                 https://www.southplainscollege.edu/
               </p>
             </li>
@@ -313,7 +335,7 @@ export default function Leftbar() {
             <li className={`${styles.affiliate}`}>
               South Texas College
               <br />
-              <p className="text-[10px] text-[#555]">
+              <p className="text-[10px] text-[#555] hover:text-[blue]">
                 https://www.southtexascollege.edu/
               </p>
             </li>
@@ -329,7 +351,7 @@ export default function Leftbar() {
             <li className={`${styles.affiliate}`}>
               South University – Austin
               <br />
-              <p className="text-[10px] text-[#555]">
+              <p className="text-[10px] text-[#555] hover:text-[blue]">
                 https://www.southuniversity.edu/
               </p>
             </li>
@@ -345,7 +367,9 @@ export default function Leftbar() {
             <li className={`${styles.affiliate}`}>
               St Philip's College
               <br />
-              <p className="text-[10px] text-[#555]">https://www.alamo.edu/</p>
+              <p className="text-[10px] text-[#555] hover:text-[blue]">
+                https://www.alamo.edu/
+              </p>
             </li>
           </a>
 
@@ -359,7 +383,9 @@ export default function Leftbar() {
             <li className={`${styles.affiliate}`}>
               Tarrant County College
               <br />
-              <p className="text-[10px] text-[#555]">https://www.tccd.edu/</p>
+              <p className="text-[10px] text-[#555] hover:text-[blue]">
+                https://www.tccd.edu/
+              </p>
             </li>
           </a>
 
@@ -373,7 +399,7 @@ export default function Leftbar() {
             <li className={`${styles.affiliate}`}>
               The Victoria College
               <br />
-              <p className="text-[10px] text-[#555]">
+              <p className="text-[10px] text-[#555] hover:text-[blue]">
                 https://www.victoriacollege.edu/
               </p>
             </li>
@@ -389,7 +415,9 @@ export default function Leftbar() {
             <li className={`${styles.affiliate}`}>
               Tyler Junior College
               <br />
-              <p className="text-[10px] text-[#555]">https://www.tjc.edu/</p>
+              <p className="text-[10px] text-[#555] hover:text-[blue]">
+                https://www.tjc.edu/
+              </p>
             </li>
           </a>
 
@@ -403,7 +431,9 @@ export default function Leftbar() {
             <li className={`${styles.affiliate}`}>
               Weatherford College
               <br />
-              <p className="text-[10px] text-[#555]">https://www.wc.edu/</p>
+              <p className="text-[10px] text-[#555] hover:text-[blue]">
+                https://www.wc.edu/
+              </p>
             </li>
           </a>
 
@@ -417,7 +447,7 @@ export default function Leftbar() {
             <li className={`${styles.affiliate}`}>
               Western Technical College
               <br />
-              <p className="text-[10px] text-[#555]">
+              <p className="text-[10px] text-[#555] hover:text-[blue]">
                 https://www.westerntech.edu/
               </p>
             </li>
@@ -433,7 +463,9 @@ export default function Leftbar() {
             <li className={`${styles.affiliate}`}>
               Wharton County Junior College
               <br />
-              <p className="text-[10px] text-[#555]">https://www.wcjc.edu/</p>
+              <p className="text-[10px] text-[#555] hover:text-[blue]">
+                https://www.wcjc.edu/
+              </p>
             </li>
           </a>
         </ul>
