@@ -126,12 +126,12 @@ const PtaMacsForm = () => {
         <div className="hidden sm:flex">
           <Topbar />
         </div>
-        <div className="flex  max-w-[75%] mx-auto">
+        <div className="flex max-w-[90%] mx-auto">
           <div className="flex-[6]">
             <div className="mt-[25px] 800px:px-[25px] pb-[25px]">
               <div className="pt-[16px] pb-[32px] 480px:px-[16px]">
                 <form
-                  className="form App 800px:scale-[.9] mx-[1rem] 800px:mx-[4rem] -mt-[2rem]"
+                  className="form App 800px:scale-[1] mx-[1rem] 800px:mx-[2rem] -mt-[2rem]"
                   onSubmit={(e) => Submit(e)}
                   ref={form}
                 >

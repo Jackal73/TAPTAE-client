@@ -14,11 +14,7 @@ export default function PtaMacs() {
             <h1 className="flex font-bold text-center italic justify-center text-4xl text-blue-700 ">
               ~ PTA MACS ~
             </h1>
-            <div
-              className="pt-[16px] pb-[32px] px-[16px] 
-            
-            "
-            >
+            <div className="pt-[16px] pb-[32px] px-[16px]">
               <Row className="mb-2 w-[80%]">
                 <h1 className="text-left text-3xl font-normal text-[blue] mt-10 mb-[8px] mx-auto">
                   What is the PTA MACS?
@@ -82,10 +78,10 @@ export default function PtaMacs() {
                   {/* and Video Tutorial */}
                 </h1>
                 <p className="text-base font-normal leading-6 text-black mt-[8px] mb-0 mx-auto">
-                  For a PDF instructions on the use of the hardcopy PTA MACS
+                  For PDF instructions on the use of the hardcopy PTA MACS,
                   click here:{" "}
                   <a
-                    href="#!"
+                    href="/instructions"
                     className="text-lg pl-2 text-[blue] hover:underline"
                   >
                     PTA MACS Instructions
