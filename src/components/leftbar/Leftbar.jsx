@@ -4,9 +4,14 @@ import styles from "../../styles/styles";
 
 export default function Leftbar() {
   return (
-    <div className="flex-[1.5] h-[calc(100vh-76px)] overflow-y-scroll sticky top-[78]">
-      <div className="w-full rounded-2xl bg-[#e0e6f6] shadow-md backdrop-blur-[15px] border border-[#0000004d] p-[10px] absolute left-0 ">
-        <div className="flex justify-center text-blue-700 text-xl mb-2 font-bold text-center">
+    // <div className="flex-[2] w-[100%] h-[calc(100vh-76px)] overflow-y-scroll sticky top-[78]">
+    <div className="">
+      {/* <div className="w-full  rounded-2xl bg-[#e0e6f6] shadow-md backdrop-blur-[15px] border border-[#0000004d] p-[10px] absolute left-0 "> */}
+      <div
+        id="left-pane"
+        className="flex-[2] h-[calc(100vh-76px)]  rounded-2xl"
+      >
+        <div className="flex justify-center text-blue-700 text-xl mb-2 px-3 pt-3 font-bold text-center">
           Texas Physical Therapist
           <br /> Assistant Programs
         </div>
@@ -469,7 +474,7 @@ export default function Leftbar() {
             </li>
           </a>
         </ul>
-        <hr className="my-[20px]" />
+        <hr className="my-[56px]" />
       </div>
     </div>
   );

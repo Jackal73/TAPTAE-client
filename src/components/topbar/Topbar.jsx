@@ -10,7 +10,7 @@ const nav__links = [
   },
   {
     path: "/about",
-    display: "About",
+    display: "About Us",
   },
 
   {
@@ -45,7 +45,7 @@ export default function Topbar() {
   const toggleMenu = () => menuRef.current.classList.toggle("show__menu");
 
   return (
-    <div className="h-[75px] w-full flex items-center justify-center sticky top-0 z-[999] bg-[#e0e6f6] rounded-2xl shadow-md backdrop-blur-[15px] border border-solid border-[#0000004d]">
+    <div className="h-[75px] w-full flex items-center justify-center fixed top-0 z-[999] bg-[#e0e6f6] rounded-2xl shadow-md backdrop-blur-[15px] border border-solid border-[#0000004d]">
       <div className="absolute left-0 ">
         <div className="w-[70px] ml-[12px]">
           <img
