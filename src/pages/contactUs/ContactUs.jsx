@@ -1,6 +1,5 @@
 import React from "react";
 import Topbar from "../../components/topbar/Topbar";
-import Leftbar from "../../components/leftbar/Leftbar";
 import { Col, Row } from "reactstrap";
 
 export default function Members() {
@@ -8,13 +7,12 @@ export default function Members() {
     <>
       <Topbar />
       <div className="flex max-w-[1400px] mx-auto">
-        {/* <Leftbar /> */}
         <div className="flex-[8]">
           <div className="mt-[100px] px-[25px] pb-[25px]">
             <h1 className="flex font-bold text-center italic justify-center text-4xl text-blue-700 ">
               ~ Contact Us ~
             </h1>
-            {/* <hr className="w-full border-b-[1px] border-b-[#eee] my-[16px] mx-[auto]" /> */}
+
             <div className="pt-[16px] pb-[32px] px-[16px]">
               <Row className="mb-2 mt-6">
                 <h2 className="flex font-semibold text-2xl text-blue-700 justify-center mb-[25px]">

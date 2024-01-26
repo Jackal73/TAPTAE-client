@@ -1,6 +1,5 @@
 import React from "react";
 import Topbar from "../../components/topbar/Topbar";
-import Leftbar from "../../components/leftbar/Leftbar";
 import { Row } from "reactstrap";
 
 export default function PtaMacs() {
@@ -8,9 +7,8 @@ export default function PtaMacs() {
     <>
       <Topbar />
       <div className="flex max-w-[1400px] mx-auto">
-        {/* <Leftbar /> */}
         <div className="flex-[8]">
-          <div className="mt-[30px] px-[25px] pb-[25px]">
+          <div className="mt-[100px] px-[25px] pb-[25px]">
             <h1 className="flex font-bold text-center italic justify-center text-4xl text-blue-700 ">
               ~ PTA MACS ~
             </h1>
@@ -61,15 +59,6 @@ export default function PtaMacs() {
                     .
                   </p>
                 </h1>
-                {/* <p className="text-base font-normal leading-6 text-black mt-[8px] mb-0 mx-auto">
-                  For in depth details of the PTA MACS click here:{" "}
-                  <a
-                    href="#!"
-                    className="text-lg pl-2 text-[blue] hover:underline"
-                  >
-                    PTA MACS
-                  </a>
-                </p> */}
               </Row>
               <br />
               <Row className="mb-2">
@@ -87,32 +76,17 @@ export default function PtaMacs() {
                     PTA MACS Instructions
                   </a>
                 </p>
-                {/* <p className="text-base font-normal leading-6 text-black mt-[8px] mb-0 mx-auto">
-                  For a 6-minute video tutorial click here:{" "}
-                  <a href="#!" className="text-lg pl-2 text-[blue] hover:underline">
-                    PTA MACS Video Instructions
-                  </a>
-                </p> */}
               </Row>
               <br />
               <Row className="">
                 <h1 className="text-center text-3xl font-normal text-[#05055edb] mt-12 mb-[8px] mx-auto">
                   <a
                     href="/ptaMacsForm"
-                    className="border p-2 rounded-sm border-[blue] transition hover:shadow-lg shadow-black hover:bg-[blue] hover:text-white"
+                    className="text-[white] border-2 p-2 font-semibold rounded-sm border-[blue] transition-all shadow-md shadow-black/70 hover:bg-white/70 hover:text-blue-700 bg-blue-700 hover:!shadow-none"
                   >
                     Order your PTA MACS
                   </a>
                 </h1>
-                {/* <p className="text-base font-normal leading-6 text-black mt-[8px] mb-0 mx-auto">
-                  <a
-                    href="/ptamacsform"
-                    className="text-lg pl-2 text-[blue] hover:underline"
-                  >
-                    Please click here
-                  </a>
-                  <span> to order your PTA MACS</span>
-                </p> */}
               </Row>
             </div>
           </div>
