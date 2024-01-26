@@ -10,7 +10,7 @@ export default function Members() {
       <div className="flex w-full">
         {/* <Leftbar /> */}
         <div className="flex-[8]">
-          <div className="mt-[30px] px-[25px] pb-[25px]">
+          <div className="mt-[100px] px-[25px] pb-[25px]">
             <h1 className="flex font-bold text-center italic justify-center text-4xl text-blue-700 ">
               ~ Members ~
             </h1>

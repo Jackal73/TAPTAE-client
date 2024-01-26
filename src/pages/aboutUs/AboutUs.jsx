@@ -23,12 +23,12 @@ export default function AboutUs() {
                 />
               </Col>
             </Row> */}
-            <div className="mt-5">
+            <div className="mt-[100px]">
               <h1 className="flex font-bold text-center italic justify-center text-4xl text-blue-700 ">
                 ~ About Us ~
               </h1>
               <Row className="z-[99] mt-20 flex grid-cols-2 justify-around items-center">
-                <Col className=" text-[#000] mr-10 w-[40%]">
+                <Col className=" text-[#000] pr-10 w-[45%] h-[20rem] border-r border-blue-700">
                   <h1 className="text-center text-3xl font-normal text-blue-700 mb-[8px] mx-auto">
                     Advancing Clinical and Academic Partnership in PTA Education
                     <p className="text-xl font-normal leading-7 text-black mt-[16px] mb-0 mx-auto w-[75%]">
@@ -42,7 +42,7 @@ export default function AboutUs() {
                 </Col>
                 <Col className=" text-[#000]">
                   <img
-                    className="w-auto h-[26rem] object-cover rounded-sm border-[0px] border-[#ccc] shadow-2xl shadow-black/80"
+                    className="w-auto h-[26rem] object-cover rounded-sm border-[0px] border-[#ccc] shadow-2xl shadow-black/80 ml-10"
                     src={hero1}
                     alt=""
                   />
@@ -54,12 +54,12 @@ export default function AboutUs() {
               <Row className="z-[99] mt-20 flex grid-cols-2 justify-around items-center">
                 <Col className=" text-[#000] ml-10 w-[50%]">
                   <img
-                    className="w-auto h-[26rem] object-cover rounded-sm border-[0px] border-[#ccc] shadow-2xl shadow-black/80"
+                    className="w-auto h-[24rem] object-cover rounded-sm border-[0px] border-[#ccc] shadow-2xl shadow-black/80"
                     src={heroPic}
                     alt=""
                   />
                 </Col>
-                <Col className=" text-[#000] ml-10 w-[40%]">
+                <Col className=" text-[#000] ml-10 pl-5 w-[40%] border-l border-blue-700">
                   <h1 className="text-center text-3xl font-normal text-blue-700 mb-[8px] mx-auto">
                     Focus
                     <p className="text-xl font-normal leading-7 text-black mt-[16px] mb-0 mx-auto w-[75%]">
@@ -77,7 +77,7 @@ export default function AboutUs() {
               <Row className="h-24"></Row>
 
               <Row className="z-[99] mt-20 flex grid-cols-2 justify-around items-center">
-                <Col className=" text-[#000] mr-10 w-[40%]">
+                <Col className="text-[#000] mr-10 w-[45%] h-[20rem] pr-5 border-r border-blue-700">
                   <h1 className="text-center text-3xl font-normal text-blue-700 mb-[8px] mx-auto">
                     Incorporation
                     <p className="text-xl font-normal leading-7 text-black mt-[16px] mb-0 mx-auto w-[80%]">
@@ -90,38 +90,13 @@ export default function AboutUs() {
                 </Col>
                 <Col className=" text-[#000]">
                   <img
-                    className="w-auto h-96 object-cover rounded-sm border-[0px] border-[#ccc] shadow-2xl shadow-black/80"
+                    className="w-auto h-[24rem] object-cover rounded-sm border-[0px] border-[#ccc] shadow-2xl shadow-black/80 ml-10 mb-10"
                     src={heroPic1}
                     alt=""
                   />
                 </Col>
               </Row>
-              <Row className="h-48"></Row>
-
-              {/* <hr className="w-full border border-[#999] my-[16px] mx-[auto]" /> */}
-
-              {/* <Row className="z-[99]">
-                <h1 className="text-left text-2xl font-normal text-blue-700 mt-0 mb-[8px] mx-auto">
-                  Incorporation
-                </h1>
-                <p className="text-base font-normal leading-6 text-black rounded mt-[16px] mb-0 mx-auto">
-                  The Texas Alliance of Physical Therapist Assistant Educators
-                  (TAPTAE) is the result of a collaborative arrangement among
-                  the physical therapist assistant programs in the state.
-                </p>
-              </Row> */}
-
-              {/* <hr className="w-full border border-[#999] my-[16px] mx-[auto]" /> */}
-
-              {/* <Row className="z-[99]">
-                <h1 className="text-left text-2xl font-normal text-[#05055edb] mt-0 mb-[8px] mx-auto">Members List</h1>
-                <a href="/members" className="text-lg pl-2 text-[blue] hover:underline">
-                  Click here for Consortium member and contact information.
-                </a>
-              </Row> */}
             </div>
-
-            {/* <hr className="w-full border-[2px] border-[#999] my-[32px] mx-auto" /> */}
           </div>
         </div>
       </div>
