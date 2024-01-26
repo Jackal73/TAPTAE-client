@@ -3,8 +3,8 @@ import PtaMacsInstructions from "../../components/ptaMacsInstructions/PtaMacsIns
 
 const Instructions = () => {
   return (
-    <div>
-      <PtaMacsInstructions />
+    <div className="bg-blue-700">
+      <PtaMacsInstructions className="overflow-x-hidden" />
     </div>
   );
 };
