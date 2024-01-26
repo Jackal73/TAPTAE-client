@@ -1,6 +1,5 @@
 import React from "react";
 import Topbar from "../../components/topbar/Topbar";
-import Leftbar from "../../components/leftbar/Leftbar";
 import { Col, Row } from "reactstrap";
 import hero1 from "../../assets/images/p-therapy.jpg";
 import heroPic from "../../assets/images/sec-cir.jpg";
@@ -11,18 +10,8 @@ export default function AboutUs() {
     <>
       <Topbar />
       <div className="flex max-w-[1400px] mx-auto">
-        {/* <Leftbar /> */}
         <div className="flex-[8]">
           <div className="mt-[32px] px-[25px] pb-[25px]">
-            {/* <Row>
-              <Col>
-                <img
-                  className="h-48 w-full object-cover mb-4 rounded-sm"
-                  src={heroPic}
-                  alt=""
-                />
-              </Col>
-            </Row> */}
             <div className="mt-[100px]">
               <h1 className="flex font-bold text-center italic justify-center text-4xl text-blue-700 ">
                 ~ About Us ~
