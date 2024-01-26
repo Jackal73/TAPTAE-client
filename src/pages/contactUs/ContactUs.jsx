@@ -29,7 +29,7 @@ export default function Members() {
               </Row>
               <Row className="flex mb-3 justify-center">
                 <a
-                  href="mailto:blender@yahoo.com"
+                  href="mailto:michele.voight@hccs.edu"
                   className="flex w-[30%] 1300px:text-xl 1000px:text-lg 800px:text-sm text-xs text-[black] font-semibold justify-start  hover:underline hover:text-blue-700"
                 >
                   Michele Voight (Program Director)

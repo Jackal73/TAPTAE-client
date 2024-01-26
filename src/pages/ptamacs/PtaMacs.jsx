@@ -82,7 +82,7 @@ export default function PtaMacs() {
                 <h1 className="text-center text-3xl font-normal text-[#05055edb] mt-12 mb-[8px] mx-auto">
                   <a
                     href="/ptaMacsForm"
-                    className="text-[white] border-2 p-2 font-semibold rounded-sm border-[blue] transition-all shadow-md shadow-black/70 hover:bg-white/70 hover:text-blue-700 bg-blue-700 hover:!shadow-none"
+                    className="text-[white] border-2 p-2 font-semibold rounded-sm border-[blue] transition-all shadow-md shadow-black/70 hover:bg-white/70 hover:text-[blue] bg-[blue] hover:!shadow-none"
                   >
                     Order your PTA MACS
                   </a>
