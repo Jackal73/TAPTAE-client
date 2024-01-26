@@ -9,3 +9,14 @@
 ::-webkit-scrollbar-thumb {
   background-color: rgb(179, 179, 179);
 }
+
+#left-pane {
+  /* width: 200px; */
+  height: 100%;
+  background-color: #e0e6f6;
+  position: fixed;
+  top: 75px;
+  left: 0;
+  /* bottom: -75px; */
+  overflow: scroll;
+}

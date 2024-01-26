@@ -2,6 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  .font-outline-2 {
+    -webkit-text-stroke: 0.5px white;
+  }
+  .font-outline-4 {
+    -webkit-text-stroke: 4px white;
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -46,23 +55,24 @@ body {
 }
 
 .main-container::after {
-  content: "";
+  /* content: "";
   background: url("/src/assets/images/physical-therapy-oc.jpg") top center
     no-repeat;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  height: 100vh;
-  width: 100vw;
-  opacity: 0.7;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  position: absolute;
+  height: 220vh;
+  width: 100%; */
+  /* opacity: 0.7; */
+  /* top: 75; */
+  /* bottom: 0; */
+  /* left: 200; */
+  /* right: 0; */
+  /* position: absolute;
   z-index: -10;
-  overflow: auto;
+  overflow: auto; */
+  /* min-height: 500px; */
 }
 
 .nav__item a {
@@ -90,3 +100,23 @@ li.nav__item::marker {
 /* .text {
   text-shadow: 3px 7px 2px rgba(0, 0, 0, 0.25);
 } */
+
+#right-pane {
+  height: calc(100vh - 76px);
+  width: 100%;
+  background-image: url("/src/assets/images/physical-therapy-oc.jpg");
+  position: fixed;
+  top: 75px;
+  left: 200px;
+  opacity: 0.9;
+  overflow: scroll;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: absolute;
+  z-index: -10;
+  overflow: auto;
+  flex: 8;
+  padding-right: 75px;
+}
