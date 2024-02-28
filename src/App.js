@@ -13,40 +13,40 @@ import Instructions from "./pages/instructions/Instructions";
 function App() {
   return (
     <BrowserRouter>
-      {/* <Switch> */}
-      <Route exact path="/home">
-        <Home />
-      </Route>
-      <Route exact path="/">
-        <Home />
-      </Route>
+      <Switch>
+        <Route path="/home">
+          <Home />
+        </Route>
+        <Route exact path="/">
+          <Home />
+        </Route>
 
-      <Route exact path="/about">
-        <AboutUs />
-      </Route>
+        <Route path="/about">
+          <AboutUs />
+        </Route>
 
-      <Route exact path="/members">
-        <Members />
-      </Route>
-      <Route exact path="/ptamacsform">
-        <PtaMacsForm />
-      </Route>
-      <Route exact path="/instructions">
-        <Instructions />
-      </Route>
-      <Route exact path="/ptamacs">
-        <PtaMacs />
-      </Route>
-      <Route exact path="/resources">
-        <Resources />
-      </Route>
-      <Route exact path="/upcoming-ccus">
-        <UpcomingCCUs />
-      </Route>
-      <Route exact path="/contact-us">
-        <ContactUs />
-      </Route>
-      {/* </Switch> */}
+        <Route path="/members">
+          <Members />
+        </Route>
+        <Route path="/ptamacsform">
+          <PtaMacsForm />
+        </Route>
+        <Route path="/instructions">
+          <Instructions />
+        </Route>
+        <Route path="/ptamacs">
+          <PtaMacs />
+        </Route>
+        <Route path="/resources">
+          <Resources />
+        </Route>
+        <Route path="/upcoming-ccus">
+          <UpcomingCCUs />
+        </Route>
+        <Route path="/contact-us">
+          <ContactUs />
+        </Route>
+      </Switch>
     </BrowserRouter>
   );
 }

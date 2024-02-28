@@ -18,9 +18,9 @@ export default function Home() {
             <div className="pt-[10px] px-[25px] pb-[25px]">
               <Row>
                 <Col className="flex w-[85%] mx-auto pr-[40px]">
-                  <h1 className="text-center font-bold mt-32 mb-[16px] mx-auto text-[3.5rem] text-[blue]">
+                  <h1 className="text-center font-bold mt-32 mb-[16px] mx-auto text-[3.5rem] text-[black]">
                     Texas Alliance of Physical Therapist Assistant Educators
-                    <br /> (<span className="">TAPTAE</span>)
+                    <br /> (<span className="text-[blue]">TAPTAE</span>)
                   </h1>
                 </Col>
               </Row>
