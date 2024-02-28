@@ -17,7 +17,7 @@ export default function Home() {
           <div id="right-pane" className="">
             <div className="pt-[10px] px-[25px] pb-[25px]">
               <Row>
-                <Col className="flex w-[85%] mx-auto">
+                <Col className="flex w-[85%] mx-auto pr-[40px]">
                   <h1 className="text-center font-bold mt-32 mb-[16px] mx-auto text-[3.5rem] text-[blue]">
                     Texas Alliance of Physical Therapist Assistant Educators
                     <br /> (<span className="">TAPTAE</span>)
@@ -25,7 +25,7 @@ export default function Home() {
                 </Col>
               </Row>
               <Row className="z-[99]">
-                <Col className="flex w-[85%] mx-auto">
+                <Col className="flex w-[85%] pl-6 pr-[40px] mx-auto">
                   <h1 className="text-center text-[black] font-outline-2 text-4xl font-bold mt-10 mb-[24px] mx-auto">
                     <i>
                       Promoting collaboration and quality education
