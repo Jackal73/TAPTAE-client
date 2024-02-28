@@ -47,7 +47,55 @@ export default function Home() {
                   </Link>
                 </h1>
               </Row>
-              
+              {/* <Row>
+              <Col className="flex bg-[#2733597a] backdrop-blur-[10px] rounded-md p-[24px] w-3/5 m-auto border border-[#0000004d]">
+                <p className="text-center text-lg font-[600] m-auto text-[#fff] rounded">
+                  <i>
+                    We welcome you to the Texas Alliance of Physical Therapist
+                    Assistant Educator’s (TAPTAE) website. Our primary focus is
+                    to promote excellence in Physical Therapist Assistant
+                    Education.”
+                  </i>
+                </p>
+              </Col>
+            </Row> */}
+              {/* 
+            <Col
+              lg="4"
+              className="flex  bg-[#27335933] backdrop-blur-[10px] mt-8 rounded-md p-2 w-2/5 m-auto border border-[#0000004d]"
+            >
+              <div className="my-0 mr-0 flex justify-around">
+                <img
+                  className="hidden 1000px:flex rounded-full border-[2px] border-[#fff] my-[3px] mx-0 w-auto h-20 1200px:h-28 object-cover justify-center"
+                  src={hero1}
+                  alt=""
+                />
+                <br />
+
+                <div className="pt-[20px] pl-[16px]">
+                  <div className="flex items-center">
+                    {" "}
+                    <a
+                      href="/ptamacs"
+                      className="1300px:text-lg text-xs 1200px:px-[24px] px-2 border border-transparent text-[#d7d7fa] hover:border-b hover:underline"
+                    >
+                      PTA MACS Information
+                    </a>
+                  </div>
+                  <div className="pb-[16px]">
+                    {" "}
+                    <a
+                      href="/ptamacsform"
+                      className="1300px:text-lg text-xs 1200px:px-[24px] px-2 border border-transparent text-[#d06767] hover:border-b hover:underline"
+                    >
+                      <span className="text-[red]">* </span>
+                      PTA MACS Order Form
+                      <span className="text-[red]"> *</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </Col> */}
             </div>
           </div>
         </div>
