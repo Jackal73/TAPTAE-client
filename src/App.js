@@ -14,12 +14,12 @@ function App() {
   return (
     <BrowserRouter>
       {/* <Switch> */}
+      <Route exact path="/home">
+        <Home />
+      </Route>
       <Route exact path="/">
         <Home />
       </Route>
-      {/* <Route path="/home">
-          <Home />
-        </Route> */}
 
       <Route exact path="/about">
         <AboutUs />

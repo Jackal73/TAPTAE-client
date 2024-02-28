@@ -4,8 +4,9 @@ import logo from "../../assets/images/texaslogo-01.png";
 
 const nav__links = [
   {
-    path: "/",
-    display: "Home",
+    path: "/home" || "/",
+    display: <span className="text-[blue]">Home</span>,
+    // display: "Home",
   },
   {
     path: "/about",
