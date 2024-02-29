@@ -12,7 +12,7 @@ export default function AboutUs() {
       <div className="flex max-w-[1400px] mx-auto">
         <div className="flex-[8]">
           <div className="mt-[32px] px-[25px] pb-[25px]">
-            <div className="mt-[100px]">
+            <div className="mt-[50px]">
               <h1 className="flex font-bold text-center italic justify-center text-4xl text-blue-700 ">
                 ~ About Us ~
               </h1>

@@ -8,14 +8,14 @@ export default function Members() {
       <Topbar />
       <div className="flex max-w-[1400px] mx-auto">
         <div className="flex-[8]">
-          <div className="mt-[100px] px-[25px] pb-[25px]">
+          <div className="mt-[50px] px-[25px] pb-[25px]">
             <h1 className="flex font-bold text-center italic justify-center text-4xl text-blue-700 ">
               ~ Contact Us ~
             </h1>
 
             <div className="pt-[16px] pb-[32px] px-[16px]">
               <Row className="mb-2 mt-6">
-                <h2 className="flex font-semibold text-2xl text-blue-700 justify-center mb-[25px]">
+                <h2 className="flex font-semibold text-2xl text-[black] justify-center mb-[25px]">
                   For any questions or comments, please feel free to contact us:
                 </h2>
               </Row>
